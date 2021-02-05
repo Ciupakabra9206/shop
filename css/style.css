@@ -1,0 +1,75 @@
+/*Global*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #3d3d3d;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.contanner {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 108px 0;
+}
+
+/*Splash*/
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/3610752/pexels-photo-3610752.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash i {
+  font-size: 30px;
+  color: #6F1E51;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.page-title {
+  font-size: 80px;
+  color: #6F1E51;
+  margin: 48px 0 0 0;
+}
+
+.page-title::after {
+  position: absolute;
+  content: '';
+  bottom: -24px;
+  width: 294px;
+  height: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+}
+
+.page-subtitle {
+  font-size: 40px;
+  color: #6F1E51;
+  margin: 48px 0 0 0;
+}
+/*# sourceMappingURL=style.css.map */
